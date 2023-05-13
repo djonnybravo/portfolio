@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9b91f81d-62eb-4536-95b3-5a9069c440c6" name="Changes" comment="add basic styles for Greetings.jsx">
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Skills/Skiils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Skills/Skiils.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Skills/Skills.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PkX8MqLduXtEPai0OyqSwxNzLN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Main" />
+      <recent name="$PROJECT_DIR$/src/components/main" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b91f81d-62eb-4536-95b3-5a9069c440c6" name="Changes" comment="" />
+      <created>1684001895221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684001895221</updated>
+      <workItem from="1684001897670" duration="3111000" />
+    </task>
+    <task id="LOCAL-00001" summary="add Skills.jsx">
+      <created>1684002445199</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684002445199</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add Projects.jsx">
+      <created>1684002604558</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684002604558</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add ContactForm.jsx">
+      <created>1684002679826</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684002679826</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix naming">
+      <created>1684003125734</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684003125734</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add Greetings.jsx">
+      <created>1684003277074</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684003277074</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add Greetings.jsx">
+      <created>1684003403547</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684003403547</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add Wishes.jsx">
+      <created>1684003544409</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684003544409</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add structure for Greetings.jsx">
+      <created>1684004106281</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684004106281</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add basic styles for Greetings.jsx">
+      <created>1684004114795</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684004114795</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Skills.jsx" />
+    <MESSAGE value="add Projects.jsx" />
+    <MESSAGE value="add ContactForm.jsx" />
+    <MESSAGE value="fix naming" />
+    <MESSAGE value="add Greetings.jsx" />
+    <MESSAGE value="add Wishes.jsx" />
+    <MESSAGE value="add structure for Greetings.jsx" />
+    <MESSAGE value="add basic styles for Greetings.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="add basic styles for Greetings.jsx" />
+  </component>
+</project>

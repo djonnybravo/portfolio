@@ -2,13 +2,12 @@ import React from 'react';
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import ContactForm from "./ContactForm/ContactForm";
+import Greetings from "./Greetings/Greetings";
 
 const MainContent = () => {
     return (
         <main>
-            <div>
-               >
-            </div>
+            <Greetings/>
             <Skills/>
             <Projects/>
             <div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
+import ContactForm from "./ContactForm/ContactForm";
 
 const MainContent = () => {
     return (
@@ -13,10 +14,7 @@ const MainContent = () => {
             <div>
                 mywaiting
             </div>
-            <div>
-                contactform
-            </div>
-
+            <ContactForm/>
 
         </main>
     );

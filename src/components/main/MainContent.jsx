@@ -1,5 +1,6 @@
 import React from 'react';
 import Skills from "./Skills/Skills";
+import Projects from "./Projects/Projects";
 
 const MainContent = () => {
     return (
@@ -8,9 +9,7 @@ const MainContent = () => {
                >
             </div>
             <Skills/>
-            <div>
-                myprojects
-            </div>
+            <Projects/>
             <div>
                 mywaiting
             </div>

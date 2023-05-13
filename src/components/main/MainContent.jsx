@@ -1,14 +1,13 @@
 import React from 'react';
+import Skills from "./Skills/Skills";
 
 const MainContent = () => {
     return (
         <main>
             <div>
-                greetings
+               >
             </div>
-            <div>
-                myskills
-            </div>
+            <Skills/>
             <div>
                 myprojects
             </div>

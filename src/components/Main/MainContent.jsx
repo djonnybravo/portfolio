@@ -3,6 +3,7 @@ import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import ContactForm from "./ContactForm/ContactForm";
 import Greetings from "./Greetings/Greetings";
+import Wishes from "./Wishes/Wishes";
 
 const MainContent = () => {
     return (
@@ -10,9 +11,7 @@ const MainContent = () => {
             <Greetings/>
             <Skills/>
             <Projects/>
-            <div>
-                mywaiting
-            </div>
+            <Wishes/>
             <ContactForm/>
 
         </main>

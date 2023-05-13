@@ -1,0 +1,19 @@
+.containter {
+    width: 100%;
+    height: 400px;
+    background-color: #eec9c9;
+}
+
+.skills {
+    background-color: #ccc6c6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.skills_Item{
+    padding: 20px;
+    background-color: #8d8b8b;
+}

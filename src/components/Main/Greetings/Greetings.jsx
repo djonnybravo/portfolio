@@ -9,8 +9,8 @@ const Greetings = () => {
                 <h2>Evgenis Solovev</h2>
                 <p>Some text</p>
             </div>
-            <div className={styles.img}>
-                <img src="" alt="photo"/>
+            <div className={styles.photo}>
+                <img src='img/all-144.png' alt="photo"/>
             </div>
         </div>
     );

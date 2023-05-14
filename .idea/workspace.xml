@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b91f81d-62eb-4536-95b3-5a9069c440c6" name="Changes" comment="add basic styles for Greetings.jsx">
-      <change beforePath="$PROJECT_DIR$/src/components/Main/Skills/Skiils.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Skills/Skiils.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Greetings/Greetings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Greetings/Greetings.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Greetings/Greetings.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Greetings/Greetings.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main/Skills/Skill.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Skills/Skill.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/Skills/Skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/Skills/Skills.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,23 +40,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="true" />
+        <entry key="com.haulmont.rcb.reactInspector" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\_IT_INC\portfolio\public" />
+      <recent name="F:\_IT_INC\portfolio\src\img" />
       <recent name="$PROJECT_DIR$/src/components/Main" />
       <recent name="$PROJECT_DIR$/src/components/main" />
     </key>
@@ -65,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684001895221</updated>
       <workItem from="1684001897670" duration="3111000" />
+      <workItem from="1684072803957" duration="3209000" />
     </task>
     <task id="LOCAL-00001" summary="add Skills.jsx">
       <created>1684002445199</created>

@@ -2,39 +2,26 @@ import React from 'react';
 import styles from './Skill.module.css'
 const Skills = () => {
     return (
-        <div className={styles.containter}>
-            <div className={styles.skills}>
-                <div className={styles.skills_Item}>
-                    <h3>React</h3>
-                    <img src="" alt="icon"/>
-                    <p>some text</p>
-                </div>
-                <div className={styles.skills_Item}>
-                    <h3>React</h3>
-                    <img src="" alt="icon"/>
-                    <p>some text</p>
-                </div>
-                <div className={styles.skills_Item}>
-                    <h3>React</h3>
-                    <img src="" alt="icon"/>
-                    <p>some text</p>
-                </div>
-                <div className={styles.skills_Item}>
-                    <h3>React</h3>
-                    <img src="" alt="icon"/>
-                    <p>some text</p>
-                </div>
-                <div className={styles.skills_Item}>
-                    <h3>React</h3>
-                    <img src="" alt="icon"/>
-                    <p>some text</p>
-                </div>
-                <div className={styles.skills_Item}>
-                    <h3>React</h3>
-                    <img src="" alt="icon"/>
-                    <p>some text</p>
-                </div>
-
+        <div className={styles.container}>
+            <div className={styles.skill__item}>
+                <h3>React</h3>
+                <img src="" alt="AA"/>
+                <p>TEXT</p>
+            </div>
+            <div className={styles.skill__item}>
+                <h3>React</h3>
+                <img src="" alt="AA"/>
+                <p>TEXT</p>
+            </div>
+            <div className={styles.skill__item}>
+                <h3>React</h3>
+                <img src="" alt="AA"/>
+                <p>TEXT</p>
+            </div>
+            <div className={styles.skill__item}>
+                <h3>React</h3>
+                <img src="" alt="AA"/>
+                <p>TEXT</p>
             </div>
         </div>
     );

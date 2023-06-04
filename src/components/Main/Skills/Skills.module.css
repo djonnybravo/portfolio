@@ -1,0 +1,26 @@
+.container {
+    background-color: #fda681;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.skills__block {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 30px;
+    padding: 20px;
+    border: 2px solid;
+}
+
+.skill__item {
+    text-align: center;
+    border: 2px solid;
+    width: 350px;
+}

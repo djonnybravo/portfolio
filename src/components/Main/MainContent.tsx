@@ -13,7 +13,6 @@ const MainContent = () => {
             <Projects/>
             <Wishes/>
             <ContactForm/>
-
         </main>
     );
 };

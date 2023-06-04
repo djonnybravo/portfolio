@@ -5,9 +5,9 @@ const Greetings = () => {
     return (
         <div className={styles.container}>
             <div className={styles.hello}>
-                <h1>Hello World</h1>
-                <h2>Evgenis Solovev</h2>
-                <p>Some text</p>
+                <span>Привет мир!</span>
+                <h1>Евгений Соловьев</h1>
+                <p>и я Frontend разработчик</p>
             </div>
             <div className={styles.photo}>
                 <img src='' alt="photo"/>

@@ -6,12 +6,12 @@ const Header = () => {
             <div className={styles.header__social}>
                 socialmedialinks
             </div>
-            <div className={styles.header__navLinks}>
+            <nav className={styles.header__navLinks}>
                 <a href="#">Главная</a>
-                <a href="#">Скилы</a>
-                <a href="#">Работы</a>
+                <a href="#">Навыки</a>
+                <a href="#">Проекты</a>
                 <a href="#">Контакты</a>
-            </div>
+            </nav>
         </header>
     );
 };

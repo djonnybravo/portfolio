@@ -1,5 +1,6 @@
 .projectsContainer{
     box-sizing: border-box;
+
     background-color: #c1f390;
     padding: 20px;
     display: flex;
@@ -15,6 +16,7 @@
 
 
 .projectsList {
+
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +37,7 @@
     text-align: center;
 
     border: 2px solid;
-    width: 450px;
-    height: 450px;
+    width: 500px;
+    height: 500px;
 
 }

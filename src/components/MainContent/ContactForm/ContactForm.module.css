@@ -1,171 +1,177 @@
-/* Ограничиваем контейнер по ширине 1000px */
-.container {
-    width: 100%;
-    max-width: 1000px;
-    padding: 0 20px;
-}
 
-/* Стили самой формы */
-.content {
-    display: flex; /* делаем колонки в ряд */
-    align-items: center; /* выравниваем по центру */
-    justify-content: space-between; /* колонки растянутся на всю ширину */
-    background: #fff;
-    padding: 40px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 8px 0 rgba(34, 60, 80, 0.2);
-}
 
-/* Стили левой колонки */
-.left-side {
-    width: 25%; /* занимает 25% общей ширины */
-    height: 100%; /* растягиваем на всю высоту */
-    position: relative; /* позиционирование относительное (для ::before) */
-    display: flex;
-    flex-direction: column; /* внутри элементы располагаем в колонку */
-}
 
-/* Стили разделительной линии между левой и правой колонкой */
-.left-side::before {
-    content: ""; /* контент нам не нужен */
-    position: absolute; /* позиционируем относительно .left-side */
-    height: 70%; /* высота 70% от .left-side */
-    width: 2px; /* ширина 2px */
-    background: #afafb6;
-    right: -15px; /* позиционируем справа + отступ 15px (справа) */
-    top: 50%; /* выравниваем по центру */
-    transform: translateY(-50%); /* выравниваем по центру */
-}
-
-/* Стили правой колонки */
-.right-side {
-    width: 75%; /* занимает 75% общей ширины */
-    margin-left: 75px;
-}
-
-/* Элементы левой колонки: адрес, телефон, email */
-.details {
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-/* Общие стили для иконок */
-.details i {
-    font-size: 25px; /* задаем размер */
-    color: #3e2093; /* задаем цвет */
-    margin-bottom: 10px;
-}
-
-/* Стили для заголовков левой колонки */
-.topic {
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 7px; /* отступ снизу 7px */
-}
-
-/* Стили для текста левой колонки */
-.text-one,
-.text-two {
-    font-size: 14px;
-    color: #afafb6;
-}
-
-/* Заголовок правой колонки */
-.topic-text {
-    font-size: 23px;
+.feedbackContainer {
+    font-size: 62.5%;
+    /*font-family: "Exo 2", sans-serif;*/
     font-weight: 600;
-    color: #3e2093;
-    margin-bottom: 10px;
 }
 
-/* Текст правой колонки */
-.right-side p {
-    margin-bottom: 20px;
+.feedbackContainer section {
+    background: #eee;
+    margin: 60px auto 120px;
+    border-top: 15px solid #393939;
+    text-align: center;
+    padding: 50px 0 110px;
+    width: 80%;
+    max-width: 1100px;
 }
 
-/* Контейнер для input'ов формы */
-.input-box {
-    height: 50px; /* по сути задаем высоту input'а */
-    width: 100%; /* ширина на всю ширину правой колонки (с учетом padding) */
-    margin-bottom: 20px; /* отступаем снизу 20px */
+.feedbackContainer section h1 {
+    margin-bottom: 40px;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #393939;
 }
 
-/* Стили для input и textarea (поле сообщение) */
-.input-box input,
-.input-box textarea {
-    height: 100%; /* растягиваем на всю высоту контейнера 50px */
-    width: 100%; /* растягиваем на всю ширину */
-    border: none; /* убираем внешние края */
-    border-radius: 5px; /* скругляем края */
-    background: #f0f1f8; /* задаем цвет фона */
-    padding: 0 20px; /* отступ справа и слева 20px */
+.feedbackContainer form {
+    width: 58.3333333333%;
+    margin: 0 auto;
+    color: #f3be81;
 }
 
-/* Отдельно стилизуем поле сообщение */
-.input-box textarea {
-    resize: none; /* чтобы нельзя было менять высоту */
-    padding: 20px;
-    font-family: "Roboto", sans-serif;
+.feedbackContainer form .field {
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px;
+    color: #f3be81;
 }
 
-/* Это контейнер для поля сообщение */
-.message-box {
-    min-height: 110px; /* минимальная высота 110px */
+.feedbackContainer form .field label {
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #393939;
+    width: 100%;
+    padding: 18px 0;
+    font-size: 1.45em;
+    letter-spacing: 0.075em;
+    /*-webkit-transition: all 333ms ease-in-out;*/
+    /*-moz-transition: all 333ms ease-in-out;*/
+    /*-o-transition: all 333ms ease-in-out;*/
+    /*-ms-transition: all 333ms ease-in-out;*/
+    /*transition: all 333ms ease-in-out;*/
 }
 
-/* Стили для контейнера кнопки */
-.button {
-    display: inline-block; /* делаем блочно-строчный элемент */
+.feedbackContainer form .field label + span {
+    opacity: 0;
+    color: white;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 7%;
+    font-size: 2.5em;
+    text-shadow: 1px 2px 0 #cd6302;
+    /*-webkit-transition: all 333ms ease-in-out;*/
+    /*-moz-transition: all 333ms ease-in-out;*/
+    /*-o-transition: all 333ms ease-in-out;*/
+    /*-ms-transition: all 333ms ease-in-out;*/
+    /*transition: all 333ms ease-in-out;*/
 }
 
-/* Стили для самой кнопки */
-.button input[type="button"] {
-    color: #fff;
-    font-size: 18px;
-    background: #3e2093;
-    outline: none;
+.feedbackContainer form .field input[type="text"],
+form .field textarea {
     border: none;
-    padding: 10px 20px;
-    border-radius: 7px;
-    transition: 0.2s; /* чтобы плавно менялся цвет при наведении (:hover) */
+    background: #393939;
+    width: 80.5%;
+    font-family: "Exo 2", sans-serif;
+    margin: 0;
+    padding: 18px 0 18px 19.5%;
+    color: #fff;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 
-/* Меняем цвет фона при наведении на кнопку */
-.button input[type="button"]:hover {
-    background: rgb(0, 0, 207);
+.feedbackContainer form .field input[type="text"]#msg,
+form .field textarea#msg {
+    height: 12px;
+    resize: none;
+    font-size: 10px;
+    font-family: "Exo 2", sans-serif;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
 }
 
-/* Меняем стили при ширине экрана меньше 800px */
-@media (max-width: 800px) {
-    /* Теперь форма (правая колонка) будет сверху, а элементы (левая колонка) снизу */
-    .content {
-        height: 100%;
-        flex-direction: column-reverse; /* располагаем в колонку и реверсивно */
-    }
+.feedbackContainer form .field input[type="text"]:focus,
+form .field input[type="text"].focused,
+form .field textarea:focus,
+form .field textarea.focused {
+    outline: none;
+    color: #f3be81;
+    font-family: "Exo 2", sans-serif;
+}
 
-    /* Внутри левой колонки внутренние элементы располагаем в ряд */
-    .left-side {
-        margin-top: 50px;
-        flex-direction: row; /* располагаем элементы (адрес, телефон, email) в ряд */
-        width: 100%; /* левая колонка на всю ширину */
-        justify-content: center;
-        flex-wrap: wrap; /* перенос элементов, если не хватит места */
-    }
-    .details {
-        margin-right: 20px;
-    }
-    .details:last-child {
-        margin-right: 0;
-    }
+.feedbackContainer form .field input[type="text"]:focus#msg,
+form .field input[type="text"].focused#msg,
+form .field textarea:focus#msg,
+form .field textarea.focused#msg {
+    padding-bottom: 150px;
+    font-size: 10px;
+    font-family: "Exo 2", sans-serif;
+}
 
-    /* Убираем разделительную линию */
-    .left-side::before {
-        display: none;
-    }
+.feedbackContainer form .field input[type="text"]:focus + label,
+form .field input[type="text"].focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+    width: 18%;
+    background: #393939;
+    color: #fff;
+}
 
-    /* Правая колонка теперь на всю ширину и не имеет отступа слева */
-    .right-side {
+.feedbackContainer form .field input[type="text"].focused + label,
+form .field textarea.focused + label {
+    color: #fff;
+}
+
+.feedbackContainer form .field:hover label {
+    width: 18%;
+    background: #f3be81;
+    color: #393939;
+}
+
+.feedbackContainer form input[type="submit"] {
+    background: #f3be81;
+    color: #393939;
+    -webkit-appearance: none;
+    border: none;
+    text-transform: uppercase;
+    position: relative;
+    padding: 13px 50px;
+    font-size: 1.4em;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    /*-webkit-transition: all 333ms ease-in-out;*/
+    /*-moz-transition: all 333ms ease-in-out;*/
+    /*-o-transition: all 333ms ease-in-out;*/
+    /*-ms-transition: all 333ms ease-in-out;*/
+    /*transition: all 333ms ease-in-out;*/
+}
+
+.feedbackContainer form input[type="submit"]:hover {
+    background: #393939;
+    color: #f3be81;
+}
+
+.feedbackContainer form input[type="submit"]:focus {
+    outline: none;
+    background: #f3be81;
+    color: #393939;
+}
+
+@media (max-width: 765px) {
+    .feedbackContainer form {
         width: 100%;
-        margin-left: 0;
+    }
+
+    .feedbackContainer section {
+        width: 100%;
     }
 }

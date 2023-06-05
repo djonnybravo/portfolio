@@ -5,5 +5,10 @@
 }
 
 .AppContainer {
-
+    width: 1800px;
+    border: 1px solid;
+    margin: 0 auto;
 }
+
+
+

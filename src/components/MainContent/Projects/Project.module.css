@@ -1,4 +1,5 @@
 .projectsContainer{
+    box-sizing: border-box;
     background-color: #c1f390;
     padding: 20px;
     display: flex;
@@ -14,6 +15,7 @@
 
 
 .projectsList {
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

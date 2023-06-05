@@ -1,0 +1,39 @@
+.projectsContainer{
+    background-color: #c1f390;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.projectsContainer h2 {
+    margin-bottom: 20px;
+}
+
+
+
+.projectsList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    column-gap: 40px;
+    padding: 20px;
+    border: 2px solid;
+}
+
+
+.projectItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    border: 2px solid;
+    width: 450px;
+    height: 450px;
+
+}

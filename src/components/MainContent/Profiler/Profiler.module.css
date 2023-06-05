@@ -1,0 +1,25 @@
+.profilerContainer{
+    background-color: azure;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+
+.profilerText{
+    align-items: center;
+
+}
+
+.profilerPhoto {
+    border: 2px solid;
+    width: 300px;
+    height: 400px;
+
+}
+.profilerPhoto img {
+
+}

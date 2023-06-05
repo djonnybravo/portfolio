@@ -1,7 +1,8 @@
 .container {
-    height: 200px;
-    background-color: antiquewhite;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: antiquewhite;
+    height: 30vh;
 }

@@ -1,17 +1,16 @@
 import React from 'react';
-import styles from "./Header.module.css"
+import styles from './Header.module.css'
+import SocialmediaLinks from "../SociamediaLinks/SocialmediaLinks";
+import Nav from "./Nav/Nav";
+
+
 const Header = () => {
     return (
-        <header className={styles.header}>
-            <div className={styles.header__social}>
-                socialmedialinks
+        <header>
+            <div className={styles.header__container}>
+                <SocialmediaLinks/>
+                <Nav/>
             </div>
-            <nav className={styles.header__navLinks}>
-                <a href="#">Главная</a>
-                <a href="#">Навыки</a>
-                <a href="#">Проекты</a>
-                <a href="#">Контакты</a>
-            </nav>
         </header>
     );
 };

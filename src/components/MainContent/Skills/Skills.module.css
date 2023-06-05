@@ -1,4 +1,4 @@
-.container {
+.skillsContainer{
     background-color: #fda681;
     padding: 20px;
     display: flex;
@@ -7,8 +7,13 @@
     justify-content: flex-start;
 }
 
+.skillsContainer h2 {
+    margin-bottom: 20px;
+}
 
-.skills__block {
+
+
+.skillsList {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -19,8 +24,16 @@
     border: 2px solid;
 }
 
-.skill__item {
+
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
     text-align: center;
     border: 2px solid;
-    width: 350px;
+    width: 150px;
+    height: 150px;
+
 }

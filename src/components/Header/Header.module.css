@@ -1,24 +1,12 @@
-.header {
-    height: 80px;
-    background-color: #5e6686;
+.header__container {
+    min-height: 90px;
+    max-height: max-content;
+    background-color: darkgray;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: center;
-}
-.header__social{
-    padding: 20px;
-    border: 2px solid red;
-    margin-left: 20px ;
-}
-.header__navLinks{
-    padding: 20px;
-    border: 2px solid red;
-    margin-right: 50px ;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
-.header__navLinks a {
-    margin: 0px 30px;
-    align-items: center;
-    text-decoration: none;
-}

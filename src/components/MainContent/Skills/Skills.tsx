@@ -1,18 +1,19 @@
 import React from 'react';
 import styles from './Skills.module.css'
+import react from '../../../assets/icons/react.svg'
 
 const Skills = () => {
 
 const skills = [
-    {id: 1, title: "HTML", img: ""},
-    {id: 2, title: "CSS", img: ""},
-    {id: 2, title: "Javascript", img: ""},
-    {id: 2, title: "Typescript", img: ""},
-    {id: 3, title: "React", img: ""},
-    {id: 4, title: "Redux", img: ""},
-    {id: 5, title: "GIT", img: ""},
-    {id: 6, title: "Storybook", img: ""},
-    {id: 6, title: "Unit Tests", img: ""},
+    {id: 1, title: "HTML", img: react},
+    {id: 2, title: "CSS", img: react},
+    {id: 2, title: "Javascript", img: react},
+    {id: 2, title: "Typescript", img: react},
+    {id: 3, title: "React", img: react},
+    {id: 4, title: "Redux", img: react},
+    {id: 5, title: "GIT", img: react},
+    {id: 6, title: "Storybook", img: react},
+    {id: 6, title: "Unit Tests", img: react},
 
 ]
 

@@ -10,9 +10,12 @@
     padding-left: 25%;
 }
 
-.profilerText{
-    align-items: center;
+.profilerText p{
+    font-size: 20px;
 
+}
+.profilerText h1 {
+    font-size: 40px;
 }
 
 .profilerPhoto {

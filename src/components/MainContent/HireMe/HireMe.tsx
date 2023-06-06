@@ -5,7 +5,7 @@ const HireMe = () => {
     return (
         <section>
             <div className={styles.container}>
-                <button>HIRE ME</button>
+                <button onClick={() => {alert('CV')}}>Скачать CV</button>
             </div>
         </section>
     );

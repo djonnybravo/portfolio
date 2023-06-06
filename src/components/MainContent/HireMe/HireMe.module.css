@@ -6,3 +6,10 @@
     background-color: antiquewhite;
     height: 30vh;
 }
+
+.container button {
+    padding: 35px;
+    border: 2px solid red;
+    border-radius: 50px;
+    width: 300px;
+}
